@@ -14,7 +14,11 @@ public class IsItFridayYetStepDefinitions {
     public void i_ask_whether_it_s_friday_yet() {
     }
 
-    @Then("I should be told {string}")
-    public void i_should_be_told(String string) {
+    @Then("I should be told {word}")
+    public void i_should_be_told_cucumber_expression(String string) {
     }
+
+//    @Then("^I should be told (.+)$")
+//    public void i_should_be_told_regular_expression(String string) {
+//    }
 }
