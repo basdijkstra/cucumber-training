@@ -13,7 +13,7 @@ public class AccountsOverviewPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
 
-    private final By textlabelPageHeader = By.xpath("//h2[text()='Account Bananas']");
+    private final By textlabelPageHeader = By.xpath("//h2[text()='Account Services']");
 
     public AccountsOverviewPage(WebDriver driver) {
         this.driver = driver;
